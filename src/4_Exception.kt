@@ -18,7 +18,8 @@
 //    throw Exception("예외 발생")
 
     val b : String? = null
-    val c = b?: failFast("b is null")
+    val c : String = b?: failFast("b is null")
+    // 앨비스 연산자와 Nothing타입을 같이 사용하면 c는 절대 null이 될 수 없음
 
     println(c?.length)
 
