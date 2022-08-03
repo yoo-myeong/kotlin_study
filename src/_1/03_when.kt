@@ -1,3 +1,5 @@
+package _1
+
 fun main() {
     val day = 2
 
